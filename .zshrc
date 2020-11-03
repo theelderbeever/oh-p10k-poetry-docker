@@ -110,4 +110,4 @@ POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f /.p10k.zsh ]] || source /.p10k.zsh
 
-poetry shell
+[[ -f pyproject.toml ]] && poetry shell
